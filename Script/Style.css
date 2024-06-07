@@ -1,0 +1,10 @@
+﻿
+#boxShadow {
+    box-shadow: -2px 2px 28px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 2px 28px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 28px 1px rgba(0,0,0,0.75);
+}
+
+body {
+    background-color: aliceblue;
+}

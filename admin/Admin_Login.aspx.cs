@@ -48,7 +48,7 @@ namespace Tutor_Management_System.admin
             }
             if (checkValidityCount == 2)
             {
-                ResetLogin();
+               
                 con.Open();
                 SqlDataReader dr= cmd.ExecuteReader();
                 if (dr.HasRows)
@@ -67,6 +67,7 @@ namespace Tutor_Management_System.admin
                     ScriptManager.RegisterStartupScript(this, GetType(), "Popup", "Swal.fire( 'Failure', 'Username or Password is Incorrect', 'error')", true);//get alert method in js
                 }
                 con.Close();
+                ResetLogin();
             }
             else
             {

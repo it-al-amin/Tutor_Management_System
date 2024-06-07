@@ -4,28 +4,22 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <style>
-        #shadow{
-                   box-shadow: -2px 2px 28px 1px rgba(0,0,0,0.75);
-                  -webkit-box-shadow: -2px 2px 28px 1px rgba(0,0,0,0.75);
-                  -moz-box-shadow: -2px 2px 28px 1px rgba(0,0,0,0.75);
-    }
-        body{
-            background-color:whitesmoke
-        }
-    </style>
-    
+
     <title>Admin Login</title>
     <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link  href="~/dist/sweetalert2.min.css"  rel="stylesheet"/>
+    <link  href="~/Script/Style.css" rel="stylesheet"/>
     <script src="../dist/sweetalert2.min.js"></script>
 </head>
 <body>
+    <br />
     <form id="form1" runat="server">
         <div class="container">
             <div class="row">
                
-                <div class="col-md-4 mx-auto" id="shadow">
+                <div class="col-md-4 mx-auto" id="boxShadow">
+                    <br />
+
                     <div class="jumbotron text-center text-white bg-primary">
                         
                         <h2>Admin Login</h2>

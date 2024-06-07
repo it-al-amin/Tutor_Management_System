@@ -15,6 +15,10 @@ namespace Tutor_Management_System.admin
             {
                 Response.Redirect("Admin_Login.aspx");
             }
+            else
+            {
+                Response.Redirect("View_Contact.aspx");
+            }
            
         }
     }

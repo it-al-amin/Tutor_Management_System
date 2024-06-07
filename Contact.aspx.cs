@@ -17,7 +17,7 @@ namespace Tutor_Management_System
         string cs = ConfigurationManager.ConnectionStrings["dbcs"].ConnectionString;//get connectionString and store this in cs variable;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
         void ResetContact()
         {
@@ -77,6 +77,9 @@ namespace Tutor_Management_System
             }
             if (checkValidityCount == 4)
             {
+
+              
+
                 con.Open();
                 int a = cmd.ExecuteNonQuery();
                 if (a > 0)
